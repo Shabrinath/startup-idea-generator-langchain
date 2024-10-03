@@ -62,19 +62,19 @@ pip install langchain
 pip install langchain_community
 pip install openai
 
-2. **Set OpenAI API Key**:
+### 2. **Set OpenAI API Key**:
    You will need to set your OpenAI API key in a `secret_key.py` file or as an environment variable:
    ```python
    openapi_key = "your-openai-api-key-here"
    ```
 
-3. **Run the Application**:
+### 3. **Run the Application**:
    Use the following command to run the app:
    ```bash
    streamlit run main.py
    ```
 
-4. **Access the App**:
+### 4. **Access the App**:
    Once the app is running, a browser window will open where you can select a job role from the sidebar. The app will then generate a list of technologies relevant to that role.
 
 ---
