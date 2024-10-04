@@ -61,7 +61,7 @@ pip install streamlit
 pip install langchain
 pip install langchain_community
 pip install openai
-
+```
 ### 2. **Set OpenAI API Key**:
    You will need to set your OpenAI API key in a `secret_key.py` file or as an environment variable:
    ```python
